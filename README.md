@@ -5,7 +5,13 @@ It can be used to clean up thousands of malicious backlinks.
 
 **Note**: this program was written at the request of a friend of mine. I don't have an expertise for SEO or Google Search Console, and I'm not a pro in these topics.
 
-## Usage
+## Installation and Usage
+
+Install this program:
+
+```bash
+go get github.com/SeanTolstoyevski/rawlink
+```
 
 ```cmd
 rawlink --help
@@ -14,11 +20,11 @@ rawlink --help
 Output:
 
 ```cmd
-Usage of rawlink.exe:
+Usage of rawlink:
   -i string
-        Okunacak dosyanın konumu (default "backlink.txt")
+        Location of the file to be read (default "backlink.txt")
   -o string
-        Yazılacak dosyanın konumu (default "fixed_backlinks.txt")
+        Name of the file to be written (default "fixed_backlinks.txt")
 ```
 
 ## Footnote 1
